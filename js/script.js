@@ -94,6 +94,11 @@ window.addEventListener('scroll', updateActiveNavLink);
 
 // Enhanced Animation on scroll for projects page
 function animateOnScroll() {
+    // Skip animations on mobile to prevent jarring scroll effects
+    if (window.innerWidth <= 768) {
+        return;
+    }
+    
     const elements = document.querySelectorAll('.skill-card, .stat, .profile-card, .project-item');
     
     elements.forEach(element => {
@@ -199,6 +204,11 @@ function initProjectAnimations() {
 
 // Intersection Observer for better performance
 function initIntersectionObserver() {
+    // Skip intersection observer animations on mobile
+    if (window.innerWidth <= 768) {
+        return;
+    }
+    
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'

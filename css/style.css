@@ -476,9 +476,12 @@ a {
   }
 }
 
-.profile-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
+/* Disable hover animations on touch devices */
+@media (hover: hover) {
+  .profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+  }
 }
 
 .profile-avatar {
@@ -631,10 +634,13 @@ a {
   transition: var(--transition-slow);
 }
 
-.skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--color-primary);
+/* Disable hover animations on touch devices to prevent scroll issues */
+@media (hover: hover) {
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+  }
 }
 
 .skill-icon {

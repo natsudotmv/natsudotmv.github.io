@@ -3,42 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Nasheed Ibrahim</title>
+    <title>Skills - Nasheed Ibrahim</title>
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <h2>Contact Me</h2>
-            <ul>
-                <li><i class="devicon-email-plain colored"></i> nasheed@example.com</li>
-                <li><i class="devicon-github-plain colored"></i><a href="https://github.com/natsudotmv">natsudotmv</a></li>
-                <li><i class="devicon-linkedin-plain colored"></i><a href="https://www.linkedin.com/in/nasheedibrahim">Nasheed Ibrahim</a></li>
+    <!-- Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-logo"><i class="fa-solid fa-hashtag"></i> Nasheed</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="skill.html" class="nav-link active">Skills</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-        </aside>
-        <main>
-                <h2>What I am good at</h2>
-                <ul>
-                    <li><i class="devicon-html5-plain colored"></i> HTML5</li>
-                    <li><i class="devicon-css3-plain colored"></i> CSS3</li>
-                    <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
-                    <li><i class="devicon-react-original colored"></i> React.js</li>
-                    <li><i class="devicon-csharp-plain colored"></i> C#</li>
-                    <li><i class="devicon-dotnetcore-plain colored"></i> .Net</li>
-                    <li><i class="devicon-flutter-plain colored"></i> Flutter</li>
-                    <li><i class="devicon-docker-plain colored"></i> Docker</li>
-                </ul>
-                <h2>Other Skills</h2>
-                <ul>
-                    <li><i class="devicon-mysql-plain colored"></i> SQL Databases</li>
-                    <li><i class="devicon-php-plain colored"></i> PHP</li>
-                    <li><i class="devicon-git-plain colored"></i> Git</li>
-                    <li><i class="devicon-github-plain colored"></i> GitHub</li>
-                </ul>
-            </section>
-        </main>
-    </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Primary Skills Section -->
+        <section class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Core Technologies</h2>
+                    <p class="section-subtitle">Technologies I work with regularly and have deep expertise in</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-html5-plain colored skill-icon"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                        <p>Modern semantic HTML with accessibility best practices and advanced features</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-css3-plain colored skill-icon"></i>
+                            <h3>CSS3</h3>
+                        </div>
+                        <p>Advanced CSS including Flexbox, Grid, animations, and responsive design</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-javascript-plain colored skill-icon"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <p>Modern ES6+ JavaScript, async programming, and DOM manipulation</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-react-original colored skill-icon"></i>
+                            <h3>React.js</h3>
+                        </div>
+                        <p>Building dynamic user interfaces with hooks, context, and modern patterns</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-csharp-plain colored skill-icon"></i>
+                            <h3>C#</h3>
+                        </div>
+                        <p>Object-oriented programming, LINQ, async/await, and design patterns</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-dotnetcore-plain colored skill-icon"></i>
+                            <h3>.NET</h3>
+                        </div>
+                        <p>Backend development with .NET Core/5+, Web APIs, and Entity Framework</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="83"></div>
+                            </div>
+                            <span class="skill-percentage">83%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-flutter-plain colored skill-icon"></i>
+                            <h3>Flutter</h3>
+                        </div>
+                        <p>Cross-platform mobile app development with Dart and Flutter framework</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card detailed">
+                        <div class="skill-header">
+                            <i class="devicon-docker-plain colored skill-icon"></i>
+                            <h3>Docker</h3>
+                        </div>
+                        <p>Containerization, Docker Compose, and deployment strategies</p>
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Skills Section -->
+        <section class="additional-skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Additional Skills</h2>
+                    <p class="section-subtitle">Other technologies and tools I'm familiar with</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="devicon-mysql-plain colored skill-icon"></i>
+                            <h3>SQL Databases</h3>
+                        </div>
+                        <p>Database design, optimization, and complex query development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="devicon-php-plain colored skill-icon"></i>
+                            <h3>PHP</h3>
+                        </div>
+                        <p>Server-side scripting and web application development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="devicon-git-plain colored skill-icon"></i>
+                            <h3>Git</h3>
+                        </div>
+                        <p>Version control, branching strategies, and collaborative development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="devicon-github-plain skill-icon"></i>
+                            <h3>GitHub</h3>
+                        </div>
+                        <p>Repository management, CI/CD, and collaborative workflows</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Interested in Collaborating?</h2>
+                        <p>If you'd like to discuss a project, opportunity, or just want to say hello, feel free to reach out!</p>
+                    <div class="contact-cta">
+                        <a href="index.html#contact" class="btn btn-primary">Get in Touch</a>
+                        <a href="projects.html" class="btn btn-outline">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>Let's connect and discuss opportunities or just have a chat about technology!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <a href="mailto:nasheed@example.com" target="_blank" rel="noopener">
+                                <i class="fas fa-envelope"></i> nasheedibrahim@outlook.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/natsudotmv" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                                /natsudotmv
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nasheedibrahim" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin"></i>
+                                /nasheedibrahim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/natsudotmv" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram"></i>
+                                @natsudotmv
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="skill.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nasheed Ibrahim. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>

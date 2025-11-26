@@ -437,7 +437,7 @@ a {
   text-align: center;
   border: 1px solid var(--color-border);
   transition: var(--transition-slow);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/hero.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../images/hero.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
